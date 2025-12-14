@@ -9,7 +9,7 @@ addButton.addEventListener('click', function() {
     let taskText = taskInput.value;
 
     // Prevent empty tasks from being added
-    if (taskText === '') {
+    if (taskText === "") {
         alert('Please enter a task.');
         return;
     }
@@ -29,5 +29,5 @@ addButton.addEventListener('click', function() {
     taskList.appendChild(newItem);
 
     // Clear the input box
-    taskInput.value = '';
+    taskInput.value = "";
 });
