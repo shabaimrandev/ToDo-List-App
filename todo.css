@@ -1,0 +1,55 @@
+.todo-app {
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: justify;
+    color: green;
+}
+
+.input-btn-ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+input {
+    height: 30px;
+    width: 150px;
+    background-color: beige;
+}
+
+button {
+    height: 30px;
+    width: 75px;
+    background-color: bisque;
+}
+
+li {
+    color: red;
+    list-style-type: none;
+    margin-left: -30px;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

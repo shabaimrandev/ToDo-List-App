@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List | DOM Manipulation</title>
+
+    <link rel="stylesheet" href="todo.css">
+
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <div class="todo-app">
+        <h2>To Do List App</h2>
+        <p>This app is a web application that serves as a todo list. Users can type out any task they
+            want to perform and it will add the task to a list. This project is designed to enable us
+            gain practical understanding of DOM(Documement Object Model), how to access it, thereby
+            allowing us to modify our content or add styling to it.
+        </p>
+
+        <div class="input-btn-ul">
+            <input type="text" name="taskInput" id="inputTaskBox" placeholder="Enter a task..">
+            <button type="submit" id="addTaskButton">Add task</button>
+
+            <!-- There's nothing inside this list currently, we will access
+                the DOM(Document Object Model) using Javascript to dynamically
+                add list items(<li> tag) to the <ul> tag created below. -->
+            <ul id="taskList">
+                <!-- Tasks will be added here dynamically -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
